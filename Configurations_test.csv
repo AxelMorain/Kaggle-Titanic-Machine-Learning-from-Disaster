@@ -1,0 +1,7 @@
+Hidden_Layer_1,Hidden_Layer_2,Activation_Func_1,Activation_Func_2,Activation_Func_Output_Layer,Loss_function,Optimizer,Metrix,Repeat,Mean,std,min,quartile_1,quartile_2,quartile_3,max,Number_of_Epoch
+6,5,relu,relu,tanh,BinaryCrossentropy,adam,accuracy,5,,,,,,,,
+5,5,relu,relu,tanh,BinaryCrossentropy,adam,accuracy,5,,,,,,,,
+4,5,relu,relu,tanh,BinaryCrossentropy,adam,accuracy,5,,,,,,,,
+3,5,relu,relu,tanh,BinaryCrossentropy,adam,accuracy,5,,,,,,,,
+2,5,relu,relu,tanh,BinaryCrossentropy,adam,accuracy,5,,,,,,,,
+6,4,relu,relu,tanh,BinaryCrossentropy,adam,accuracy,5,,,,,,,,
