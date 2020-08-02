@@ -17,7 +17,7 @@ Titanic Project
 •Status: Working and ready to upload
 
 •What?:
-    -Creates a funciton that tries, and store results of different ANN artichitecture and setting,
+    -Creates a funciton that runs, and stores results of different ANN artichitecture and setting,
     The neural networks were arbitrary limited to 2 hidden layers.
     -The input df countains information about architecture shape and setting that wants to be tried
     -There are two ouputs:
@@ -29,7 +29,7 @@ Titanic Project
     and optimizer is one way to find the best model
         
 •How?:
-    -The ANN imports its parameters from a  file containing the following informations: 
+    -The ANN imports its parameters from a file containing the following informations: 
     Hidden_Layer_1,Hidden_Layer_2, Activation_Func_1,Activation_Func_2,
     Activation_Func_Output_Layer,Loss_function,Optimizer,Metrix,Repeat. 
     -All parameters are self explainatory except for Repeat. Repeat represent
@@ -38,8 +38,9 @@ Titanic Project
     -This arose a question, what if the ANN is retrained without resetting its
     weights? Will the accuracy increase? Will it lead to overfitting? I have
     answered those questions myself in a different file that I might upload
-    later...   
-    - Atest Configuration file sould be in the Github as well
+    later. You are more than welcome to try it out by yourself =)
+    - A test Configuration file should be in the Github as well. It countains
+    a few different models, you are more than welcome to elaborate on it.
     
 •Results:
 
@@ -59,7 +60,7 @@ def Test_All_ANN_in_Configuratoins_with_Best_Model_Save(Configurations_file):
     #Enter the file name without the '.csv' extention
     
     ''' This function also can reinitiase weights after each run, but it is turned off
-    To turn it on, delete the '#' to enable the code to be read '''
+    To turn it on, delete the '#' on the lines 124 and 187 to enable the code to be read '''
     
     import numpy as np
     import pandas as pd
