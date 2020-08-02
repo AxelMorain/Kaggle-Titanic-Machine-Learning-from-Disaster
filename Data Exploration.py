@@ -28,7 +28,7 @@ File Order:
         Dealing with missing values:
             Statistics were used to estimate the missing Age
             Missing Fare were replaced by the median
-            Missing Embarked were replaced by the mad
+            Missing Embarked were replaced by the mode
             The entire Cabin column was deleted
         Dealing wiht other variables:        
             Tiles were extracted out of the Name column and put into a new column
