@@ -36,7 +36,7 @@ but Configurations_test_Best_Model_with_Weights_Resets works...
 -
 
 """
-# not using all of those but what ever...
+# Those are all the libraries I used for this project:
 import numpy as np
 import pandas as pd
 import keras
@@ -80,7 +80,7 @@ results.columns = ['PassengerId', 'Survived']
 results.Survived = results.Survived.astype('int')
 
 
-results.to_csv('Final_Predictions.csv', index=False)
+results.to_csv('Final_Predictions.csv', index=False) # Ready to be uploaded to Kaggle
 
 
 
