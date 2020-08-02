@@ -36,16 +36,16 @@ File Order:
             The entire column Ticket was deleted
             
     -Data Preparation:
-        One Hot Encoding was apply to the variables: Sex, Embarked and Title
+        One Hot Encoding was apply to the variables:Pclass, Sex, SibSp, Parch,  Embarked and Title
         All variables were z-scored
         
     -Model Tested and Results:
-        Decision Tree =>
-        KNN with 3 nearest neighbors =>
-        KNN with 5 nearest neighbors =>
-        Random Forest =>
-        Perceptron =>
-        gaussian =>
+        Decision Tree => 96.41%
+        KNN with 3 nearest neighbors => 86.87%
+        KNN with 5 nearest neighbors => 86.08%
+        Random Forest => 89.56%
+        Perceptron => 79.91%
+        gaussian => 40.85%
     
     
 •Results:
